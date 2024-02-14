@@ -5,14 +5,37 @@
     background: black;
 }
 
-
+.container{
+    display: flex;
+}
 #canvas1{
      border:2px solid white;
-     position: absolute;
-     top:50%;
-     left:50%;
-     transform: translate(-50%,-50%);
+     /* position: absolute; */
+     /* top:0px; */
+     /* left:0px; */
+      /* left:20%;  */
+     /* transform: translate(-50%,-50%); */
      width: 500px;
      height: 706px;
 
+}
+  
+
+.textbox{
+    font-size: 60px; 
+    border:2px solid white;
+     /* position: absolute; */
+     color: brown;
+     font-weight: 800;
+    
+      
+  display: flex;
+  justify-content: center;
+  align-items: center;
+     /* top:0px;
+     right:0px; */
+     /* left:50%; */
+     /* transform: translate(-50%,-50%); */
+     width: 50%;
+     height: 706px;
 }
